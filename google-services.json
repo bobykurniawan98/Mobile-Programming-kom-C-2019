@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "781882680703",
+    "firebase_url": "https://cchat-cc473.firebaseio.com",
+    "project_id": "cchat-cc473",
+    "storage_bucket": "cchat-cc473.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781882680703:android:596af16dd8e1b2b0",
+        "android_client_info": {
+          "package_name": "com.example.asus.cchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781882680703-apvrbd53nl3v976ll26g67lsj4sals8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.cchat",
+            "certificate_hash": "5bad782ee5dc281b9353ebf7f7e9e5179cc408c6"
+          }
+        },
+        {
+          "client_id": "781882680703-47i9i70md8vg0i4s0bj9kpg2u5g99toj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyAKn5S-3UcZs9MpTWloX74i7cuIJ4DtQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781882680703-47i9i70md8vg0i4s0bj9kpg2u5g99toj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
