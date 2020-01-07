@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">781882680703-47i9i70md8vg0i4s0bj9kpg2u5g99toj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cchat-cc473.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">781882680703</string>
+    <string name="google_api_key" translatable="false">AIzaSyCyAKn5S-3UcZs9MpTWloX74i7cuIJ4DtQ</string>
+    <string name="google_app_id" translatable="false">1:781882680703:android:596af16dd8e1b2b0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCyAKn5S-3UcZs9MpTWloX74i7cuIJ4DtQ</string>
+    <string name="google_storage_bucket" translatable="false">cchat-cc473.appspot.com</string>
+    <string name="project_id" translatable="false">cchat-cc473</string>
+</resources>
