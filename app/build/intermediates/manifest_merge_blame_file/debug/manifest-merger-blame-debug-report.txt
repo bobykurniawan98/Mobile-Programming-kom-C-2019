@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.asus.cchat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:23:5-79
+14-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:5-68
+15-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:26:5-110
+16-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:26:22-79
+18
+19    <permission
+19-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:28:5-30:47
+20        android:name="com.example.asus.cchat.permission.C2D_MESSAGE"
+20-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:29:9-63
+21        android:protectionLevel="signature" />
+21-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:30:9-44
+22
+23    <uses-permission android:name="com.example.asus.cchat.permission.C2D_MESSAGE" />
+23-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:32:5-79
+23-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:32:22-76
+24
+25    <application
+25-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:9:5-40:19
+26        android:allowBackup="true"
+26-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:10:9-35
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\725cae61acf6b608e3779d79649ea1de\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:11:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:12:9-41
+31        android:supportsRtl="true"
+31-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:13:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:14:9-40
+34        <activity android:name="com.example.asus.cchat.MainActivity" >
+34-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:15:9-21:20
+34-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:15:19-47
+35            <intent-filter>
+35-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:16:13-20:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:17:17-69
+36-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:17:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:19:17-77
+38-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:19:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.asus.cchat.LoginActivity" />
+41-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:22:9-51
+41-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:22:19-48
+42        <activity android:name="com.example.asus.cchat.RegisterActivity" />
+42-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:23:9-54
+42-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:23:19-51
+43        <activity
+43-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:24:9-26:67
+44            android:name="com.example.asus.cchat.AccountActivity"
+44-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:25:13-44
+45            android:parentActivityName="com.example.asus.cchat.MainActivity" />
+45-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:26:13-55
+46        <activity android:name="com.example.asus.cchat.GroupChatsActivity" />
+46-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:27:9-56
+46-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:27:19-53
+47        <activity android:name="com.example.asus.cchat.PhoneLoginActivity" />
+47-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:28:9-56
+47-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:28:19-53
+48        <activity
+48-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:29:9-31:59
+49            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+49-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:30:13-76
+50            android:theme="@style/Base.Theme.AppCompat" />
+50-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:31:13-56
+51        <activity
+51-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:32:9-34:58
+52            android:name="com.example.asus.cchat.FindFriendActivityActivity"
+52-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:33:13-55
+53            android:parentActivityName="com.example.asus.cchat.MainActivity" />
+53-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:34:13-55
+54        <activity android:name="com.example.asus.cchat.ProfileActivity" />
+54-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:35:9-53
+54-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:35:19-50
+55        <activity
+55-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:36:9-39:20
+56            android:name="com.example.asus.cchat.ChatActivity"
+56-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:36:19-47
+57            android:parentActivityName="com.example.asus.cchat.MainActivity" >
+57-->C:\Users\Windows 10\Downloads\CChat\CChat\app\src\main\AndroidManifest.xml:37:13-55
+58        </activity>
+59        <activity
+59-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:23:9-29:75
+60            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+60-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:24:13-85
+61            android:excludeFromRecents="true"
+61-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:25:13-46
+62            android:exported="true"
+62-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:26:13-36
+63            android:launchMode="singleInstance"
+63-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:27:13-48
+64            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+64-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:28:13-102
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:29:13-72
+66
+67        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+67-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:31:9-35:19
+67-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:31:18-89
+68            <meta-data
+68-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:32:13-34:85
+69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+69-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:33:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\99d0426d5689ca79ecd196d1f03cdb82\firebase-auth-16.0.1\AndroidManifest.xml:34:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:28:13-30:85
+72                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+72-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:29:17-139
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\600ad19a4bb984aeb42a6b6cd8e993a1\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:30:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:36:13-38:85
+75                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+75-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:37:17-96
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:38:17-82
+77        </service>
+78
+79        <receiver
+79-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:29:9-33:20
+80            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+80-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:30:13-85
+81            android:enabled="true"
+81-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:31:13-35
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:32:13-37
+83        </receiver>
+84        <receiver
+84-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:34:9-42:20
+85            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+85-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:35:13-100
+86            android:enabled="true"
+86-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:36:13-35
+87            android:exported="true"
+87-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:37:13-36
+88            android:permission="android.permission.INSTALL_PACKAGES" >
+88-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:38:13-69
+89            <intent-filter>
+89-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:39:13-41:29
+90                <action android:name="com.android.vending.INSTALL_REFERRER" />
+90-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:40:17-79
+90-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:40:25-76
+91            </intent-filter>
+92        </receiver>
+93
+94        <service
+94-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:44:9-47:40
+95            android:name="com.google.android.gms.measurement.AppMeasurementService"
+95-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:45:13-84
+96            android:enabled="true"
+96-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:46:13-35
+97            android:exported="false" />
+97-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:47:13-37
+98        <service
+98-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:48:9-52:72
+99            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+99-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:49:13-87
+100            android:enabled="true"
+100-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:50:13-35
+101            android:exported="false"
+101-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:51:13-37
+102            android:permission="android.permission.BIND_JOB_SERVICE" />
+102-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a3fe20a8892907821d86d95e26bbc05a\firebase-analytics-16.0.1\AndroidManifest.xml:52:13-69
+103
+104        <receiver
+104-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:41:9-50:20
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+105-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:42:13-78
+106            android:exported="true"
+106-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:43:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:44:13-73
+108            <intent-filter>
+108-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:45:13-49:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:46:17-81
+109-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:46:25-78
+110
+111                <category android:name="com.example.asus.cchat" />
+111-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:48:17-61
+111-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:48:27-58
+112            </intent-filter>
+113        </receiver>
+114        <!--
+115             FirebaseInstanceIdService performs security checks at runtime,
+116             no need for explicit permissions despite exported="true"
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:56:9-62:19
+119            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+119-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:57:13-77
+120            android:exported="true" >
+120-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:58:13-36
+121            <intent-filter android:priority="-500" >
+121-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:59:13-61:29
+121-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:59:28-51
+122                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+122-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:60:17-80
+122-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b9ffa440cc55d9596d6fc5e5a53ba6d1\firebase-iid-16.0.0\AndroidManifest.xml:60:25-77
+123            </intent-filter>
+124        </service>
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\71fd317b7eb3227dacb2fc0d13e27bed\firebase-common-16.0.0\AndroidManifest.xml:9:9-13:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\71fd317b7eb3227dacb2fc0d13e27bed\firebase-common-16.0.0\AndroidManifest.xml:10:13-77
+128            android:authorities="com.example.asus.cchat.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\71fd317b7eb3227dacb2fc0d13e27bed\firebase-common-16.0.0\AndroidManifest.xml:11:13-72
+129            android:exported="false"
+129-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\71fd317b7eb3227dacb2fc0d13e27bed\firebase-common-16.0.0\AndroidManifest.xml:12:13-37
+130            android:initOrder="100" />
+130-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\71fd317b7eb3227dacb2fc0d13e27bed\firebase-common-16.0.0\AndroidManifest.xml:13:13-36
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\34b3dad0853b6d1f13da0366634014b4\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\34b3dad0853b6d1f13da0366634014b4\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\34b3dad0853b6d1f13da0366634014b4\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\34b3dad0853b6d1f13da0366634014b4\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\40bde892d519288b769ca96a345b83c2\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\40bde892d519288b769ca96a345b83c2\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\40bde892d519288b769ca96a345b83c2\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+140
+141        <provider
+141-->[com.squareup.picasso:picasso:2.71828] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b88913a3525f0b157c58adbac581966d\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+142            android:name="com.squareup.picasso.PicassoProvider"
+142-->[com.squareup.picasso:picasso:2.71828] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b88913a3525f0b157c58adbac581966d\picasso-2.71828\AndroidManifest.xml:9:13-64
+143            android:authorities="com.example.asus.cchat.com.squareup.picasso"
+143-->[com.squareup.picasso:picasso:2.71828] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b88913a3525f0b157c58adbac581966d\picasso-2.71828\AndroidManifest.xml:10:13-72
+144            android:exported="false" />
+144-->[com.squareup.picasso:picasso:2.71828] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b88913a3525f0b157c58adbac581966d\picasso-2.71828\AndroidManifest.xml:11:13-37
+145    </application>
+146
+147</manifest>
